@@ -1,0 +1,734 @@
+*{
+    box-sizing:border-box;
+}
+/*header{
+    border: 1px solid black;
+}*/
+html{
+    font-size: 62.25%;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 14px;
+}
+header li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.8rem;
+}
+header button{
+    background-color: black;
+    color:white;
+    width: 81px;
+    border-radius: 4px;
+}
+.top{
+    width: 100%;
+    padding-right: 50%;
+    padding-left: 88px;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 1px solid black;*/
+    background-color: rgb(241 243 245);   
+}
+.topLeft{
+    margin: 46px 251px;
+}
+.topLeft h1{
+    width: 144%;
+    font-size: 3rem;
+}
+.topLeft img{
+    width: 372px
+}
+
+
+label , input{   /*Figure out what to do here feels like an unessesary line of code that needs to be addeed to something else*/
+    border-radius: 5px;
+    width: 285px;
+    height: 43px;
+    margin-left: -15px;
+    margin-right: -10px;
+}
+label , button{
+    display: inline-flex;
+    border-radius: 4px; 
+    padding: 10px 28px;
+}   
+.button{
+    background-color: rgb(183 198 206);
+    color: white;
+}
+aside{
+    width: 33%;
+    display: inline-flex;   
+}
+aside img{
+    width: 525px;
+    margin-top: 68px;
+}
+.two{
+    width: 100%;  
+    height: 239px;
+    float: left;
+    
+}
+.two h2{
+    font-size: 2.6rem;
+    margin-left:230px;
+    text-align: center;
+    width: 840px;
+}
+.two1 , .two2{
+    width: 50%;
+    display: block;
+    padding-left: 119px;
+    float: left;
+}
+.sideByS1 , .sideByS2{
+    border-top: 2px solid rgb(254 221 240) 10px;
+    color: rgb(0, 0, 0);
+    display: inline;  
+    font-size: 1.6rem;  
+}
+.grey{
+    float: left;
+}
+.grey p > em{
+    color: grey;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 9px 139px;
+}
+
+.three{
+    background-color: rgb(224 226 228);
+    width: 100%;
+    float: left;
+}
+
+.threeLeft, .threeRight{
+    width: 50%;
+    float: left;
+}
+.threeRight img{
+    width: 304px;
+    display: block;
+    margin-left: 235px;  
+}
+.threeRight span{ /*Suppose to move the photo captions right*/
+    margin-left: 363px;
+}
+.threeLeft h2{
+    font-size: 2.6rem;
+}
+.threeLeft p{
+    font-size: 1.6rem;
+}
+
+.four{
+    width:100%;
+    float: left;
+}
+.fourtop{
+    width: 100%;
+    float: left;
+}
+.four h3{
+    font-size: 2.6rem;
+    text-align: center;
+}
+.founder{
+    width: 20%;
+    float: left;
+}
+.founder img{
+    width: 218px;
+    margin-left: 130px;
+}
+.bio{
+    width: 80%;
+    font-size: 1.7rem;
+    padding: 0px 237px 0px 112px;
+    float: left;
+}
+
+/* .four section{
+    display: flex;
+    flex-wrap: no-wrap;
+} */
+
+.bottomside{
+    width: 100%;
+}
+.bottomside .b1{
+    width: 50%;
+    float: left; 
+    
+}
+.bottomside .b1 img{
+    display: block;
+    width: 215px;
+    margin: 12px 99px;
+}
+.bottomside .b1 p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.4rem;
+}
+
+.five{
+    width: 100%;
+    background-color: rgb(183 198 208);
+    margin-top: 3px; 
+    float: left;
+}
+.five p{
+    color: white;
+    font-size: 2rem;
+    display: inline;    
+}
+.fiveOne{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(142 157 162); 
+    clear: both;
+
+}
+footer p{
+    color: white;
+    display: inline;
+    font-size: 1.5rem;
+}
+.socials{
+    margin-left: 56px;
+    display: inline-flex;
+    padding-left: 1027px;
+    font-size: 1.5rem;
+}
+
+.socials span a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.lists{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.lists li a{
+    color: white;
+}
+.mininav{
+    padding-left: 0px;
+}
+.mininav li{
+    list-style-type: none;
+}
+@media (max-width: 1425px){
+    .grey{
+        margin: 9px 120px;
+    }
+}
+@media (max-width: 1328px){
+    .socials{
+        padding-left: 1000px;
+    }
+}
+@media (max-width: 1297px){
+    .socials{
+        display: none;
+    }
+}
+@media (max-width: 1228px){
+    .founder img{
+        margin-left: 75px;
+}
+}
+@media (max-width: 1162px){
+    aside{
+        width: 50%;
+}
+}
+@media (max-width: 1099px){
+    .two{
+        width: 100%;
+    }
+    aside{ /*having issues making her disappear*/
+        display: none;
+    }
+}   
+
+@media (max-width: 1077px){
+    .two h2{
+        margin-left: 75px;
+}
+    .threeRight img{
+        margin-left: 150px; 
+    }
+}
+@media (max-width: 944px){
+    .fourtop{
+        text-align: center;
+        width: 100%; 
+        float: none; 
+    }   
+    .founder{
+        width: 20%;
+        margin-left: 270px;
+        float: none;
+    }
+    .bio{
+        width: 80%;
+        font-size: 1.7rem;
+        padding: 0px 10px 0px 223px;
+        float: none;
+    }
+    .threeRight img{
+        margin-left: 110px; 
+    }
+    .threeLeft h2{
+        margin-left: 100px;
+    }
+    .threeLeft p{
+        margin-left: 100px;
+        padding: 0px;
+    }
+}
+@media (max-width: 930px){
+    .two h2{
+        margin-left: 45px;
+        width: 826px;
+    }
+}  
+
+@media (max-width: 898px){
+    .two h2{
+        width: 764px;
+    }
+    .four h3{
+        padding-left: 93px;
+        
+    }
+    .fourtop{
+        text-align: center;
+        width: 100%; 
+        float: none; 
+    }   
+    .founder{
+        width: 20%;
+        margin-left: 258px;
+        float: none;
+    }
+    .bio{
+        width: 100%;
+        padding: 0px 10px 0px 77px;
+    }
+}  
+
+@media (max-width: 850px){
+    .threeRight img{
+        display: none;
+    }
+    .threeRight span{
+        display: none;
+    }
+    .threeLeft{
+        width: 100%;
+        float: none;
+    }
+    .threeLeft h2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 811px){
+    .two h2{
+        width: 764px;
+    }
+    .two{
+        width: 100%;
+}
+}
+
+@media (max-width: 807px){
+    .two1 , .two2{
+        width: 100%;
+        display: block;
+        padding-left: 119px;
+        
+    }
+    .grey{
+        display: none;
+    }
+}
+@media (max-width: 805px){
+    .two h2{
+        width: 675px;        
+    }
+    .b1{
+        display: none;
+    }
+    .threeLeft h2 {
+        margin-left: 48px;
+    }
+}
+@media(max-width: 756px){
+    .three {
+        width: 101%;
+    }
+    .threeLeft p {
+        margin-left: 48px;
+        padding: 0px;
+    }
+}
+@media (max-width: 752px){
+    .bio{
+        width: 100%;
+        padding: 0px 10px 0px 77px;
+    }
+    .four h3{
+        padding-left: 65px;
+        
+    }
+    .founder{
+        width: 20%;
+        margin-left: 210px;
+        float: none;
+        
+    }
+    .three{
+        width: 100%;
+    }
+    .threeLeft h2{
+        text-align: center;
+    }
+    .topLeft{
+        width: 100%;
+    }
+    label , input{  
+        width: 285px;
+        height: 43px;
+        margin-left: -15px;
+        margin-right: -10px;
+    }
+    label , button{
+        display: inline;
+        border-radius: 4px; 
+        padding: 10px 28px;
+}
+    .lists{
+        display: inline;
+        justify-content: space-evenly;
+        list-style: none;
+}
+}
+@media (max-width: 729px){
+    .two h2{
+        width: 522px;        
+    }
+    .two1 , .two2{
+        width: 100%;
+        display: block;
+        padding-left: 52px;
+        
+    }
+}
+@media (max-width: 625px){
+    .founder img {
+        margin-left: 16px;
+    }
+}
+@media (max-width: 557px){
+    .two h2 {
+        width: 449px;
+    }
+    .founder img {
+        margin-left: -10px;
+    }
+}
+@media (max-width: 534px){
+    .head{
+        display: inline;
+    }
+}
+@media (max-width: 500px){
+    .two h2 {
+        width: 418px;
+    }
+}
+@media (max-width: 469px){
+    .top{
+        width: 118%;
+    }
+    .three {
+        width: 102%;
+    }
+    .threeLeft p {
+        margin-left: 18px;
+    }
+    .founder img {
+        margin-left: -67px;
+    }
+    .bio p{
+        margin-left: -21%;
+    }
+}
+@media (max-width: 411px){
+    .founder img {
+        margin-left: -105px;
+    }
+    .bio span{
+        margin-left: -12%;
+    }
+    .topLeft img {
+        width: 294px;
+    }
+    .two h2 {
+        width: 334px;
+    }
+}
+@media (max-width: 341px){
+    .founder img {
+        margin-left: -105px;
+    }
+    .bio span{
+        margin-left: -12%;
+    }
+    .topLeft img {
+        width: 239px;
+    }
+    .two h2 {
+        width: 318px;
+        margin-left: 1%;
+    }
+    .topLeft p{
+       width: 198%;
+        margin-left: -34%;
+    }
+    .topLeft h1 {
+        width: 219%;
+        font-size: 3rem;
+        margin-left: -38%;
+    }
+    input{
+        width: 249px;
+        margin-left: -56px;
+    }
+    .founder img {
+        margin-left: -140px;
+    }
+}
+@media (max-width: 278px){
+    .founder img {
+        margin-left: -173px;
+    }
+    .topLeft img {
+        width: 200px;
+        margin-left: -47%;
+    }
+    .sideByS1 , .sideByS2{
+        display: none;
+    }
+    .two h2 {
+        width: 263px;
+    }
+    .three {
+        width: 111%;
+    }
+   .five {
+        display: none;
+    }
+    input {
+        width: 225px;
+        margin-left: -56px;
+    }
+}
+@media (max-width: 211px){
+    .top {
+        width: 150%;
+    }
+    .topLeft h1 {
+        width: 230%;
+        font-size: 3rem;
+        margin-left: -77%;
+    }
+    .topLeft h1 {
+        width: 230%;
+        font-size: 3rem;
+        margin-left: -77%;
+    }
+    .topLeft p {
+        width: 203%;
+        margin-left: -68%;
+    }
+    .three {
+        width: 136%;
+    }
+    .founder img {
+        margin-left: -205px;
+    }
+    .bio p {
+        margin-left: -80%;
+        width: 229%;
+    }
+    footer {
+        width: 152%;
+    }
+
+
+}
+@media (max-width: 186px){
+    .two h2 {
+        font-size: 2.3rem;
+    }
+    .two h2 {
+        width: 230px;
+    }
+    .founder img {
+        margin-left: -231px;
+    }
+    .topLeft img {
+        width: 171px;
+        margin-left: -65%;
+    }
+    .topLeft h1 {
+        width: 245%;
+        font-size: 2.5rem;
+        margin-left: -77%;
+    }
+}
+@media (max-width: 162px){
+    .two h2 {
+        font-size: 2.3rem;
+    }
+    .two h2 {
+        width: 230px;
+    }
+    .founder img {
+        margin-left: -231px;
+    }
+    .topLeft img {
+        width: 153px;
+        margin-left: -133%;
+    }
+    .topLeft h1 {
+        width: 245%;
+        font-size: 2.5rem;
+        margin-left: -77%;
+    }
+    input {
+        width: 130px;
+        margin-left: -81px;
+    }
+    .button{
+        margin-left: -118%;
+    }
+    .two h2 {
+        width: 160px;
+        font-size: 1.8rem;
+    }
+    .threeLeft h2 {
+        margin-left: 1px;
+    }
+    .bio p {
+        margin-left: -138%;
+        width: 346%;
+    }
+}
+@media (max-width: 130px){
+    .founder img {
+        width: 121px;
+        margin-left: 130px;
+    }
+    .founder img {
+        margin-left: -294px;
+    }
+    .bio {
+        width: 127%;
+        padding: 0px 10px 0px 75px;
+    }
+    footer {
+        width: 195%;
+    }
+    .three {
+        width: 176%;
+    }
+    .three {
+        width: 176%;
+    }
+    .button {
+        margin-left: -118%;
+        display:block;
+    }
+
+   
+}
+@media(max-width:109px){
+    .top {
+        width: 239%;
+    }
+    .three {
+        width: 246%;
+    }
+}
+@media(max-width:89px){
+    footer {
+        width: 274%;
+    }
+    .topLeft p {
+        width: 245%;
+        margin-left: -119%;
+    }
+    .three {
+        width: 270%;
+    }
+    .top {
+        width: 268%;
+    }
+}
+@media(max-width:64px){
+    .top {
+        width: 239%;
+    }
+    .three {
+        width: 246%;
+    }
+    .top {
+        width: 395%;
+    }
+    .three {
+        width: 435%;
+    }
+    footer {
+        width: 445%;
+    }
+}
+@media (max-width: 53px){
+    .top {
+        width: 490%;
+    }
+    .three {
+        width: 513%;
+    }
+}
